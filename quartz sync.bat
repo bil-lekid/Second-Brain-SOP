@@ -1,11 +1,18 @@
 @echo off
-setlocal
 
+:: Request Administrator permission if not elevated
+net session >nul 2>&1
+if %errorlevel% neq 0 (
+    powershell -Command "Start-Process -FilePath '%~f0' -Verb RunAs"
+    exit /b
+)
+
+:: Navigate to Quartz directory
 cd /d "D:\Work\Website PPP\Second-Brain-SOP"
 
-echo Menjalankan Quartz sync...
-
+:: Run Quartz Sync
+echo Starting Quartz Sync...
 call npx quartz sync
 
 echo.
-pause
+echo Quartz Sync finished.
