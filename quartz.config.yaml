@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: bil-lekid.github.io/Second-Brain-SOP
+  baseUrl: sop.primaputraperkasa.com
   ignorePatterns:
     - private
     - templates

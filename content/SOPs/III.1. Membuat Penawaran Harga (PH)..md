@@ -4,7 +4,7 @@ tags:
   - StandardOperatingDocument
   - SOP
   - Admin
-Divisi: III. Admin
+Divisi: III. AdminTToTO
 ---
 # Tujuan
 1. Admin membuat penawaran harga, sales mengirimkan penawaran harga ke customer.

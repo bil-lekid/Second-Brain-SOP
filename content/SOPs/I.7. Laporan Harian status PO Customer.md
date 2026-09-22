@@ -13,8 +13,8 @@ Status: Discussion
   
 ## Hasil yang diinginkan  
   
-- Manager/Owner setiap sore hari, diinfokan progress barang yang datang dan yang akan datang untuk pesanan customer.
-- Barang yang terkendala juga dilaporkan pada progress.
+- Manager/Owner dapat progress PO terupdate.
+- Barang sudah datang, belum pesan dan sudah pesan, barang kapan datang, dan yang terkendala lengkap dilaporkan.
 - Data progress tersimpan rapi dalam satu grup foto.
 ## Prinsip  
   
