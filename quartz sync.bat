@@ -16,3 +16,4 @@ call npx quartz sync
 
 echo.
 echo Quartz Sync finished.
+pause
