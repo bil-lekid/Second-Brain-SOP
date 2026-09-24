@@ -273,6 +273,15 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source: github:quartz-community/comments
+    enabled: false
+    options:
+      provider: giscus
+      options: {}
+    order: 50
+    layout:
+      position: afterBody
+      priority: 10
 layout:
   groups:
     toolbar:
