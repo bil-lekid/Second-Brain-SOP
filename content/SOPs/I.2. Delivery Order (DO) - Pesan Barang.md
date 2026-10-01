@@ -6,24 +6,7 @@ tags:
   - Purchasing
 Divisi: I. Purchasing
 ---
-
-# I.2. Delivery Order (DO) / Pesan Barang
-
-Source (Notion): https://www.notion.so/29b796f898d780a19e82f6a50ca992af
-Department: Purchasing  
-Status: Draft  
-Last Updated: 2026-05-08
-
-## Prinsip
-
-- PO customer fisik adalah pegangan utama purchasing untuk pembelian dan cari harga.
-- Nomor Sales Order (SO) ERPNext adalah pegangan utama untuk pencatatan DO/nota/bukti pembelian.
-- Semua pembelian wajib bisa ditelusuri ke nomor SO/customer.
-- Purchasing boleh belanja dengan PO/DO tulis tangan, WA, telepon, atau langsung ke toko.
-- Barang tidak perlu masuk stok dulu dan tidak perlu dibuat Purchase Receipt dulu.
-- Purchase Invoice Draft dibuat saat barang datang, bukan saat PO/DO baru ditulis.
-- Purchase Invoice tidak perlu dicetak; cukup tulis nomor Purchase Invoice di bukti pembelian fisik.
-
+Pesan semua barang dari PO Customer sesuai instruksi manager. Untuk semua pembelian barang wajib menggunakan DO (Delivery Order). DO adalah dokumen resmi pemesanan barang ke Customer, informasinya sangat penting untuk pengambilan barang dari operasional dan pelaporan pembelian ke admin. 
 ## Alur Pembelian
 
 1. Purchasing menerima PO customer fisik yang sudah ditulis nomor SO.

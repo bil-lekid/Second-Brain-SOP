@@ -21,7 +21,7 @@ Prosedur ini bertujuan untuk melaporkan progress pembelian PO customer. Baik bar
 		- barang kosong/kurang  
 		- supplier belum balas  
 		- harga naik
-		- barang akan diambil, tunggu pengiriman  
+		- barang akan diambil, tunggu pengiriman = ambil kirim
 		- dan lain-lain
 2. Pastikan semua barang pada PO ditandakan seperti poin di atas.
 3. Setiap sore hari, foto PO dan kirim ke no WA 087885572522. Foto untuk masing-masing PO yang ada dan tulis nomor PO pada chat.
