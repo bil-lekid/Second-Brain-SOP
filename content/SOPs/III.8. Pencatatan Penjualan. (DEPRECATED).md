@@ -3,7 +3,7 @@ tags:
   - Business
   - StandardOperatingDocument
   - SOP
-  - Purchasing
-Divisi: I. Purchasing
+  - Admin
+Divisi: III. Admin
+status: archived
 ---
-

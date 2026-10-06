@@ -6,7 +6,7 @@ tags:
   - Purchasing
 Divisi: I. Purchasing
 ---
-Pesan semua barang dari PO Customer sesuai instruksi manager. Untuk semua pembelian barang wajib menggunakan DO (Delivery Order). DO adalah dokumen resmi pemesanan barang ke Customer, informasinya sangat penting untuk pengambilan barang dari operasional dan pelaporan pembelian ke admin. 
+Untuk semua pembelian barang wajib menggunakan DO (Delivery Order). DO adalah dokumen resmi pemesanan barang ke Customer, informasinya sangat penting untuk pengambilan barang dari operasional dan pelaporan pembelian ke admin. 
 ## Alur Pembelian
 
 1. Purchasing menerima PO customer fisik yang sudah ditulis nomor SO.

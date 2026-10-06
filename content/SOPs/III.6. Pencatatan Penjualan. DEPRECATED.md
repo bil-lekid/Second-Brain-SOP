@@ -5,10 +5,5 @@ tags:
   - SOP
   - Admin
 Divisi: III. Admin
+status: archived
 ---
-
-# III.6. Pencatatan Penjualan.
-
-
-
-

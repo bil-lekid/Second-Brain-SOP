@@ -6,7 +6,7 @@ tags:
   - Purchasing
 Divisi: I. Purchasing
 ---
-PO (Purchase Order) Customer dicetak oleh admin, dan diberikan ke Purchasing. Purchasing beli barang dan koordinasi dengan operasional untuk siapkan barang. Hasil yang diinginkan adalah barang semua dibelikan sesuai dengan PO Customer, dan alur informasi status barang pada PO tercatat, diinfokan ke manager dan admin yang akan buat dokumen.
+PO (Purchase Order) Customer adalah dokumen resmi menandakan ada pembelian ke perusahaan. Purchasing beli barang sesuai PO Customer dan koordinasi dengan operasional untuk siapkan barang. 
 ## Langkah
 
 1. PO dicetak oleh admin. Diterima *Purchasing*. 
@@ -14,7 +14,7 @@ PO (Purchase Order) Customer dicetak oleh admin, dan diberikan ke Purchasing. Pu
 3. Untuk masing-masing barang pada PO customer, purchasing mengikuti langkah berikut:
 	1. pesan barang [[I.2. Delivery Order (DO) - Pesan Barang]].
 	2. Tandai barang [[I.7. Laporan progress status PO Customer]]
-4. Koordinasi dengan sales untuk menentukan jadwal pengiriman dan infokan PO mana saja yang ingin dikirimkan.
+4. Koordinasi dengan manajer & sales untuk menentukan jadwal pengiriman dan infokan PO mana saja yang ingin dikirimkan.
 5. Purchasing berikan PO Customer ke admin dan koordinasi sesuai rencana pengiriman.
 
 Note:

@@ -6,9 +6,7 @@ tags:
   - Admin
 Divisi: III. Admin
 ---
-# Tujuan
-1. Admin membuat penawaran harga, sales mengirimkan penawaran harga ke customer.
-2. Semua data penawaran harga tercatat.
+Penawaran harga adalah dokumen yang dikirimkan ke customer untuk menawarkan produk yang ingin dijual.  
 # Langkah
 1. Manajer memberikan data penawaran harga *customer* ke admin
 2. Data berbentuk tabel nama barang, jumlah barang, harga jual, harga beli, dan apakah harga beli termasuk ppn (ditulis ppn). 
@@ -35,7 +33,10 @@ Note:
 	2. Pada *setting* ganti *No Scalling* menjadi *Fit Sheet on One Page.*
 	3. Tekan esc.
 	4. Tekan tombol *"save to excel and pdf"*.
-2. Untuk harga repeat diberikan tanda ® pada nomor untuk quotation2, dan untuk quotation meiloon cukup diketik harga repeat pada note.
-3. Untuk customer Meiloon khusus pakai sheet quotation mei. Ada kolom spesifikasi dan setiap note dituliskan di kolom terpisah.
+2. Untuk harga repeat diberikan tanda ® `alt + 0174` pada nomor untuk quotation2, dan untuk quotation meiloon cukup diketik harga repeat pada note.
+3. Untuk customer Meiloon khusus pakai sheet quotation mei. Ada kolom spesifikasi dan setiap note dituliskan di kolom terpisah, apabila harga repeat cukup tulis harga repeat pada kolom note barang.
 4. Untuk memberikan gambar bisa langsung di bawah nama barang dengan kolom dibesarkan, atau bisa pada halaman lampiran baru.
-
+	![[Pasted image 20261006093624.png|360]]
+	Gambar diletakkan di cell nama barang yang kolomnya dibesarkan
+	![[Pasted image 20261006093719.png|357]]
+	Gambar diletakkan setelah halaman penawaran sebagai lampiran
