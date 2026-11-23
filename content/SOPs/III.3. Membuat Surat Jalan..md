@@ -6,26 +6,25 @@ tags:
   - Admin
 Divisi: III. Admin
 ---
-Admin membuat surat jalan saat barang sudah siap untuk pengiriman. Surat jalan digunakan untuk bukti bahwa barang sudah terkirim, dicek oleh internal, dan sudah diterima customer.
 
-# Langkah:
-1. PO diberikan ke admin oleh *purchasing* sesuai instruksi dari manajer. Buat surat jalan untuk masing-masing PO.
-2. Buka link berikut erp.primaputraperkasa.com
-3. Pergi ke halaman `Sales Order`
-4. Tekan Sales Order dengan nomor PO Customer yang ingin dibuatkan surat jalan.
-5. Tekan `Buat Surat Jalan`
-6. Buat nomor surat jalan baru.
-7. Ganti tanggal pengiriman.
-8. Nama barang dan jumlah barang otomatis pindah, apabila ada barang yang mau dikirim parsial konfirmasi lagi ke *Purchasing*. [[I.7. Laporan progress status PO Customer]]
-9. Print surat jalan menggunakan printer dot matrix.
-10. Stempel surat jalan, asli dan copy.
-11. Minta tandatangan manajer dan *purchasing*. Lampirkan surat jalan bersama PO. Apabila ada revisi maka revisi sesuai perintah.
-12. Apabila sudah ditandatangan, untuk setiap surat jalan:
-	1. Tulis nama pengirim sesuai dengan instruksi manajer.
-	2. Surat jalan/invoice copy merah diarsip bersama PO halaman pertama.
-	3. Apabila barang pada PO belum lengkap maka PO dikembalikan ke *purchasing*.
-13. Robek bagian samping surat jalan.
-14. Simpan surat jalan dalam satu map surat jalan, gabungkan dengan invoice apabila ada.
-15. Buat [[III.4. Membuat Invoice.|invoice]] sesuai dengan instruksi.
-16. 
-17. Serahkan ke bagian operasional pengirim.
+# III.3. Membuat Surat Jalan
+
+## Deskripsi SOP
+Admin membuat surat jalan ketika barang siap dikirim. Surat jalan menjadi bukti pemeriksaan internal, pengiriman, dan penerimaan customer.
+
+## Langkah Menjalankan SOP
+1. Terima PO dari purchasing sesuai instruksi manajer. Konfirmasikan barang, jumlah, dan jadwal pengiriman; buat surat jalan untuk masing-masing PO.
+2. Buka [sistem perusahaan](https://erp.primaputraperkasa.com), masuk ke **Sales Order**, lalu pilih pesanan berdasarkan nomor PO customer.
+3. Tekan **Buat Surat Jalan**, isi nomor surat jalan baru dan tanggal pengiriman.
+4. Cocokkan barang dan jumlah yang terisi otomatis. Untuk pengiriman sebagian, masukkan hanya jumlah yang benar-benar dikirim setelah konfirmasi purchasing melalui [[I.7. Laporan progress status PO Customer]].
+5. Periksa alamat, barang, jumlah, nomor PO, dan tanggal; cetak dengan printer dot matrix.
+6. Stempel asli dan salinan, lalu minta tanda tangan manajer serta purchasing. Lampirkan PO untuk pemeriksaan dan revisi jika diminta.
+7. Setelah disetujui, tulis nama pengirim sesuai instruksi manajer dan arsipkan copy merah bersama halaman pertama PO.
+8. Jika PO belum dikirim lengkap, kembalikan PO kepada purchasing untuk melanjutkan sisa pesanan.
+9. Lepaskan bagian samping kertas, masukkan surat jalan ke map pengiriman, dan gabungkan invoice jika memang sudah dibuat sesuai [[III.4. Membuat Invoice.]].
+10. Serahkan map kepada operasional. Setelah pengiriman, terima kembali surat jalan bertanda tangan customer untuk arsip dan proses invoice.
+
+## Hasil yang Diinginkan
+- Surat jalan sesuai dengan barang yang benar-benar dikirim.
+- Dokumen sudah diperiksa dan ditandatangani sebelum dibawa operasional.
+- Bukti penerimaan customer kembali kepada admin.

@@ -6,46 +6,30 @@ tags:
   - Finance
   - StandardOperatingDocument
 Divisi: VI. Finance
+status: inbox
 ---
 
-# Coretax – Pajak Keluaran (Impor XML)
+# VI.1. Coretax Pajak Keluaran (Impor XML)
 
-Referensi DJP (template + converter): https://www.pajak.go.id/id/reformdjp/coretax/template-xml-dan-converter-excel-ke-xml
+## Deskripsi SOP
+Finance menyiapkan faktur pajak keluaran melalui Excel, mengubahnya menjadi XML, lalu mengimpor dan memeriksa data di Coretax. Gunakan template/converter DJP yang berlaku dan data pajak yang telah diverifikasi finance.
 
-## Intinya
-Isi Excel → convert jadi XML → import ke Coretax → cek draft → kirim & tanda tangan elektronik.
+## Langkah Menjalankan SOP
+1. Siapkan invoice, data transaksi, identitas pajak penjual/pembeli, dan dokumen pendukung. Periksa apakah faktur untuk transaksi tersebut sudah pernah dibuat.
+2. Unduh template dan converter **Faktur Keluaran** dari [halaman resmi DJP](https://www.pajak.go.id/id/reformdjp/coretax/template-xml-dan-converter-excel-ke-xml). Halaman tersebut mencantumkan pembaruan converter 23 Januari 2026 saat diperiksa pada 10 Oktober 2026; jangan menganggap template v1.6 pada SOP lama selalu berlaku.
+3. Isi bagian header faktur sesuai petunjuk template: tanggal, jenis faktur, kode transaksi, referensi nomor invoice internal, identitas penjual/pembeli, dan NITKU yang sesuai. Gunakan data identitas yang telah diverifikasi; jangan membentuk NITKU hanya berdasarkan asumsi dari NPWP.
+4. Isi detail tiap barang/jasa: nama, satuan, harga, jumlah, diskon, serta data DPP/PPN/PPnBM sesuai transaksi dan template. Pertahankan formula yang tersedia dan periksa hasil perhitungannya.
+5. Cocokkan nomor penghubung header dan detail (kolom **Baris** jika digunakan template). Isi kolom wajib, format angka, dan kode referensi sesuai petunjuk versi yang dipakai.
+6. Periksa identitas, tanggal, jenis/kode transaksi, barang, total, dan pajak terhadap invoice. Finance memastikan perlakuan pajak serta fasilitas transaksi sebelum impor; jangan menetapkan semua transaksi sebagai jenis/kode yang sama.
+7. Jalankan converter, pilih **Faktur Pajak Keluaran**, dan simpan XML. Jika muncul kesalahan, perbaiki data sumber lalu konversi ulang.
+8. Login ke Coretax, buka bagian **e-Faktur/Pajak Keluaran** dan fungsi impor data yang tersedia, lalu unggah XML.
+9. Periksa hasil impor/draft satu per satu. Jika gagal atau berbeda dari sumber, selesaikan koreksi sebelum melanjutkan. Periksa kemungkinan duplikasi sebelum mengulang impor.
+10. Setelah pemeriksaan selesai, petugas yang berwenang mengirim dan menandatangani secara elektronik sesuai alur Coretax.
+11. Pastikan status berhasil/terbit. Simpan faktur dan bukti proses bersama invoice, lalu serahkan faktur kepada bagian yang mengirim dokumen customer.
 
-## Rules paling penting (template v1.6)
-- `Jenis Faktur`: **selalu `Normal`**.
-- `Baris`: urut mulai **1** (satu faktur = satu baris di sheet `Faktur`).
-- Kalau `Kode Transaksi` = **`07` atau `08`**:
-  - `Keterangan Tambahan` **wajib**
-  - `Cap Fasilitas` **wajib**
-- `Referensi`: pakai **nomor invoice internal** (rule internal).
-- `ID TKU Penjual`: **wajib 22 digit (NITKU)** NPWP + 000000.
-- Pembeli `TIN`:
-  - `NPWP/NIK Pembeli`: di sample terisi **16 digit**
-  - `ID TKU Pembeli` = **`NPWP/NIK Pembeli` + `000000`** (jadi 22 digit)
-  - `Nomor Dokumen Pembeli`: isi `-`
-- Kalau `Jenis ID Pembeli` **bukan** `TIN`:
-  - `NPWP/NIK Pembeli` = `0000000000000000`
-  - `ID TKU Pembeli` = `000000`
-- Sheet `DetailFaktur`:
-  - `Baris` harus match `Faktur.Baris`
-  - Angka (harga/qty/dpp/dll) max **2 desimal**
-  - `Total Diskon`: kalau tidak ada isi `0`
-  - `Tarif PPnBM` & `PPnBM`: kalau tidak ada isi `0`
+## Hasil yang Diinginkan
+- Faktur pajak sesuai invoice, identitas, dan perlakuan pajak transaksi.
+- Hasil impor diperiksa sebelum penerbitan dan tidak menghasilkan faktur ganda.
+- Faktur terbit serta arsipnya dapat ditelusuri berdasarkan nomor invoice.
 
-## Cara isi (ceklist singkat)
-### 1) Sheet `Faktur` (header)
-Isi minimal: `Baris`, `Tanggal Faktur`, `Jenis Faktur`, `Kode Transaksi`, `Referensi`, `ID TKU Penjual`, data pembeli (`NPWP/NIK`, `Jenis ID`, `Negara`, `Nama`, `Alamat`, `ID TKU Pembeli`).
-
-### 2) Sheet `DetailFaktur` (item)
-Untuk tiap item, isi: `Baris`, `Barang/Jasa` (A=Barang, B=Jasa), `Nama Barang/Jasa`, `Nama Satuan Ukur`, `Harga Satuan`, `Jumlah`, `Diskon`.
-Biarkan formula hitung `DPP/PPN` jalan (jangan copas sebagai value kalau bisa).
-
-### 3) Convert & Import
-1. Jalankan converter DJP → pilih jenis XML: **Faktur Pajak Keluaran** → simpan XML.
-2. Coretax: `e-Faktur` → `Pajak Keluaran` → `Impor Data` → pilih XML.
-3. Cek draft → **Kirim** → tanda tangan elektronik.
-
+Referensi teknis: [Template XML dan converter DJP](https://www.pajak.go.id/id/reformdjp/coretax/template-xml-dan-converter-excel-ke-xml). Rincian kolom pada template v1.6 lama tetap tersedia pada salinan dokumen sebelum revisi; gunakan petunjuk versi yang sedang dipakai sebagai acuan.

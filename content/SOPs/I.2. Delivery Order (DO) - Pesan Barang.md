@@ -6,46 +6,30 @@ tags:
   - Purchasing
 Divisi: I. Purchasing
 ---
-Untuk semua pembelian barang wajib menggunakan DO (Delivery Order). DO adalah dokumen resmi pemesanan barang ke Customer, informasinya sangat penting untuk pengambilan barang dari operasional dan pelaporan pembelian ke admin. 
-## Alur Pembelian
 
-1. Purchasing menerima PO customer fisik yang sudah ditulis nomor SO.
-2. Purchasing menggunakan PO customer sebagai dasar pembelian dan cari harga.
-3. Untuk masing-masing barang, purchasing boleh:
-	1. Membuat PO/DO tulis tangan.
-	2. Pesan via WA/telepon.
-	3. Beli langsung ke toko.
-	4. Langsung menyerahkan nota apabila barang sudah dibeli.
-4. Di setiap PO/DO/nota/bukti pembelian, purchasing wajib tulis:
-	1. Nomor SO ERPNext.
-	2. Nama customer.
-	3. Nama barang.
-	4. Jumlah barang.
-	5. Harga beli jika sudah diketahui.
-	6. Keterangan PPN jika harga termasuk PPN.
-5. Apabila barang sudah datang, purchasing cek barang terhadap PO customer dan cek bukti pembelian [[I.3. Menerima nota, tagihan, dan Surat Jalan.]]
-6. Purchasing kasih bukti pembelian ke admin untuk dibuat Purchase Invoice Draft.
-7. Admin tulis nomor Purchase Invoice Draft di bukti pembelian fisik.
-8. Kalau barang untuk satu PO customer sudah lengkap, purchasing kasih PO customer ke admin/manager.
-9. Owner menentukan jadwal pengiriman.
-10. Setelah jadwal pengiriman ditentukan, admin buat surat jalan dan invoice.
+# I.2. Delivery Order (DO) - Pesan Barang
 
-## Cara Isi DO Tulis Tangan
+## Deskripsi SOP
+Purchasing menggunakan Delivery Order (DO) pembelian sebagai dokumen pemesanan kepada supplier. DO menjadi pegangan operasional untuk mengambil barang dan admin untuk mencatat pembelian.
 
-1. Tulis tanggal.
-2. Tulis nama supplier/perusahaan.
-3. Tulis contact person jika ada.
-4. Centang Delivery Order.
-5. Tulis nomor SO ERPNext di bagian atas dokumen.
-6. Tulis nama customer.
-7. Tulis nama barang.
-8. Tulis jumlah barang.
-9. Tulis harga beli; kalau harga termasuk PPN, tulis "inc PPN".
-10. Total jumlah pembelian di bagian bawah.
-11. Cap dan tanda tangan jika diperlukan.
+## Langkah Menjalankan SOP
+### A. Memesan barang
+1. Terima PO customer. Jika PO belum ada, minta admin membuat pesanan Draft bertanda "PO menyusul" dan minta persetujuan manajer/owner sebelum belanja.
+2. Buat DO untuk barang yang akan dibeli. Satu DO hanya untuk satu nomor Sales Order (SO).
+3. Pesan melalui WhatsApp/telepon atau beli langsung ke toko. Untuk pengambilan ke beberapa toko, usahakan urutan perjalanan searah.
+4. Pada DO dan bukti pembelian, tulis nomor PO customer, nomor SO, nama customer (boleh disingkat, misalnya Daijo = DJ), nama barang, jumlah, satuan, harga beli, dan apakah harga termasuk PPN.
+5. Saat barang tiba, cek barang dan bukti pembelian sesuai [[I.3. Menerima nota, tagihan, dan Surat Jalan.]].
+6. Serahkan DO/nota kepada admin untuk pencatatan pembelian. Jika sistem yang digunakan mendukung Purchase Invoice Draft, admin membuat Draft dan menulis nomornya pada bukti fisik.
+7. Jika supplier mengambil DO asli, foto DO terlebih dahulu dan berikan foto kepada admin.
+8. Jika seluruh barang dalam PO sudah lengkap, serahkan PO kepada admin/manajer. Owner menentukan jadwal pengiriman; admin menyiapkan surat jalan dan invoice sesuai SOP masing-masing.
 
-Note:
-1. Jangan tulis di satu kertas DO barang untuk dua SO berbeda.
-2. DO harus diberikan ke admin, apabila kertas DO ingin diambil *supplier* maka foto DO dan berikan ke admin.
-3. Apabila PO customer belum ada, minta admin buat SO Draft dengan status "PO menyusul" sebelum belanja.
-4. DO pemesanan barang diusahakan lajurnya searah supaya staf operasional tidak bolak-balik
+### B. Mengisi DO tulis tangan
+1. Isi tanggal, nama supplier, dan contact person jika tersedia; centang bagian Delivery Order.
+2. Tulis nomor SO di bagian atas, nama customer, dan nomor PO customer.
+3. Isi nama barang, jumlah, satuan, dan harga beli. Tulis "inc PPN" jika harga sudah termasuk PPN.
+4. Hitung total pembelian, lalu beri cap dan tanda tangan jika diperlukan.
+
+## Hasil yang Diinginkan
+- Setiap pembelian dapat ditelusuri ke PO customer dan SO yang benar.
+- Operasional memiliki informasi yang cukup untuk mengambil barang.
+- Admin menerima bukti pembelian yang lengkap untuk pencatatan dan arsip.

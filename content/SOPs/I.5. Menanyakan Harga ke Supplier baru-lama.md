@@ -7,21 +7,23 @@ tags:
 Divisi: I. Purchasing
 ---
 
-# I.5. Menanyakan Harga ke Supplier baru/lama
+# I.5. Menanyakan Harga ke Supplier baru-lama
 
-Source (Notion): https://www.notion.so/29b796f898d7807394f2c455bf02bce4
-Department: Purchasing  
-Status: Draft  
-Last Updated: 2025-07-23
+## Deskripsi SOP
+Purchasing meminta harga dan ketersediaan barang dari supplier baru atau lama sebagai dasar penawaran kepada customer dan pembelian barang.
 
-# Kontak baru
-1. Save nomor WA, atau nomor telepon kantor pada aplikasi google kontak ke email purchasingppp1@gmail.com.
-2. Perkenalkan diri, "Permisi saya dari Prima Putra Perkasa, ingin tanya harga/ingin tanya ada jual barang ini?"
-3. Apabila di WA, berikan foto kartu nama CV Prima Putra Perkasa: https://panlandwoo-my.sharepoint.com/:i:/p/server/EZNctWz7S6RBgBy8IPCLlNEB2VtiHoqi0iyyJZkmCxAAvw
-4. Tanya barang yang ingin dicari harganya, "ingin tanya harga: barang_x."
-5. Apabila sudah dibalas dan belum diinfokan mengenai ppn. Tanya apabila harganya sudah *include* *ppn* (barang include ppn sudah ditambah 11% dari harga netto).
-6. Tanya apabila barangnya *ready* (barangnya ada stoknya).
-7. Tuliskan pada kertas permintaan harga.
-8. Apabila sudah diberikan, balas "Baik, terima kasih. Saya tawarkan dulu."
+## Langkah Menjalankan SOP
+1. Siapkan nama barang, spesifikasi/foto, jumlah, satuan, dan waktu kebutuhan.
+2. Untuk kontak baru, simpan nomor WhatsApp/telepon kantor di Google Contacts akun purchasingppp1@gmail.com.
+3. Perkenalkan diri: "Permisi, saya dari Prima Putra Perkasa. Saya ingin menanyakan harga dan ketersediaan barang ini." Jika melalui WhatsApp, kirim [kartu nama perusahaan](https://panlandwoo-my.sharepoint.com/:i:/p/server/EZNctWz7S6RBgBy8IPCLlNEB2VtiHoqi0iyyJZkmCxAAvw).
+4. Kirim detail barang dan tanyakan harga, apakah termasuk PPN, serta stok yang tersedia. Jika belum tersedia, tanyakan estimasi kedatangan.
+5. Catat jawaban pada kertas permintaan harga, termasuk supplier, tanggal, harga, status PPN, dan stok/estimasi datang. Jangan menganggap harga sudah termasuk PPN jika belum dikonfirmasi.
+6. Balas: "Baik, terima kasih. Saya tawarkan dulu."
+7. Serahkan informasi harga kepada manajer/sales. Jika supplier belum membalas atau barang kosong, sampaikan kendalanya.
 
+## Hasil yang Diinginkan
+- Harga beli, status PPN, dan ketersediaan barang tercatat jelas.
+- Manajer/sales memiliki informasi yang cukup untuk menentukan penawaran.
+- Kontak supplier baru dapat digunakan kembali.
 
+Referensi asal: [Notion](https://www.notion.so/29b796f898d7807394f2c455bf02bce4).

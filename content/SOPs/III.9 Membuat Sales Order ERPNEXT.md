@@ -8,50 +8,32 @@ Divisi: III. Admin
 status: inbox
 ---
 
-# III. 9 Membuat Sales Order ERPNEXT
+# III.9 Membuat Sales Order ERPNEXT
 
-## Prinsip
+## Deskripsi SOP
+Admin membuat Sales Order (SO), yaitu catatan pesanan customer, agar pembelian dan pengiriman memiliki nomor pelacakan. **Perlu konfirmasi sistem:** dokumen asal berisi langkah ERPNext sekaligus catatan "tidak jadi memakai ERPNext"; catatan pembagian tugas admin masih menyebut website perusahaan. Langkah teknis di bawah digunakan jika manajer memastikan ERPNext yang dipakai.
 
-- Sales Order (SO) dibuat secepat mungkin supaya semua pembelian punya nomor tracking.
-- PO customer disimpan admin di folder customer OneDrive sebelum dicetak.
-- PO customer fisik diberikan ke purchasing sebagai pegangan pembelian.
-- Nomor SO ditulis di PO customer fisik untuk pencatatan DO/nota/bukti pembelian.
+## Langkah Menjalankan SOP
+### A. Mencatat pesanan
+1. Pastikan sistem yang aktif dengan manajer. Jika memakai sistem lain, catat data pesanan pada sistem tersebut sesuai arahan; jangan mengasumsikan tombol ERPNext tersedia.
+2. Periksa PO sesuai [[III.10. Check PO Sesuai Penawaran Harga]]. Simpan PDF PO di folder customer/PO pada OneDrive sebelum dicetak.
+3. Jika menggunakan ERPNext, buka [sistem perusahaan](https://erp.primaputraperkasa.com), login, tekan **Ctrl + G**, cari **Sales Order List**, lalu tambah SO.
+4. Isi customer, nomor PO customer, tanggal PO, dan tanggal pengiriman yang disepakati jika diperlukan sistem.
+5. Isi setiap barang sesuai PO: item code, nama, deskripsi/spesifikasi, jumlah, satuan, dan harga jual yang sudah diperiksa. Jika belum ada item code khusus, SOP asal menggunakan **Trading Barang Mekanikal**.
+6. Isi kategori penjualan/pajak sesuai transaksi. Untuk transaksi PPN Indonesia, pilih kategori pajak Indonesia yang telah dikonfigurasi perusahaan; pastikan perhitungannya diperiksa finance.
+7. Periksa alamat pengiriman, billing address, contact person, dan payment terms, misalnya Net 30 atau Net 60 sesuai kesepakatan customer.
+8. Simpan sebagai **Draft**. Catat nomor SO yang muncul; pola ERPNext pada SOP asal adalah `SAL-ORD-YYYY-XXXXX`.
+9. Tambahkan nomor SO pada nama file PDF secara konsisten, misalnya `SAL-ORD-2026-00001 - PO 123.pdf`, dan tulis nomor SO pada PO fisik.
+10. Cetak SO Draft dan serahkan kepada manajer/owner untuk diperiksa. Revisi jika belum sesuai; ikuti arahan manajer untuk tahap persetujuan berikutnya.
+11. Berikan PO fisik bernomor SO kepada purchasing sebagai pegangan pembelian.
 
-## Alur Membuat Sales Order
+### B. Jika PO customer belum tersedia
+1. Simpan bukti permintaan customer pada folder customer di OneDrive.
+2. Buat pesanan Draft dengan nomor PO **"PO menyusul"** dan tanggal permintaan customer.
+3. Minta persetujuan manajer/owner sebelum barang dibeli atau dikirim.
+4. Saat PO resmi datang, periksa kesesuaiannya, lalu perbarui nomor/tanggal PO pada pesanan dan arsip tanpa membuat pesanan ganda.
 
-1. Buka erp.primaputraperkasa.com.
-2. Login.
-3. Buka Purchase Order customer pada tab windows berbeda, safe juga pdf purchase order pada folder onedrive\purchase order.
-4. Tekan `ctrl+g` dan cari `Sales Order List`.
-5. Tekan tambah Sales Order.
-6. Isi customer.
-7. Isi customer purchase order:
-	1. Jika PO customer sudah ada, isi nomor PO customer.
-	2. Jika PO customer belum ada, isi "PO menyusul".
-8. Isi tanggal PO customer:
-	1. Jika PO customer sudah ada, isi tanggal sesuai dokumen PO.
-	2. Jika PO customer belum ada, isi tanggal request customer.
-9. Isi bagian barang sesuai PO customer atau request customer:
-	1. Item code: isi `Trading Barang Mekanikal` jika belum ada item code khusus.
-	2. Item name: isi nama barang.
-	3. Description: isi detail barang jika perlu.
-	4. Quantity: isi jumlah barang.
-	5. UOM: isi satuan barang, misalnya pcs, pak, klg, dll.
-10. Isi sales and tax category. Gunakan Indonesian tax untuk PPN Indonesia.
-11. Pastikan address contact, billing address, dan contact person terisi sesuai.
-12. Isi payment terms sesuai customer, misalnya Net 30 atau Net 60.
-13. Save sebagai Draft.
-14. Nomor Sales Order berupa SAL-ORD-YYYY-XXXXX muncul, rename file pdf tambahkan nomor sales order di depan nama file (nama file - nomor sales order.pdf).
-15. Admin Print SO Draft, berikan ke manager.
-16. Manager/owner cek SO Draft.
-17. Kalau SO belum OK, admin revisi.
-
-## Jika PO Customer Belum Ada
-
-1. Admin save bukti request customer ke folder customer OneDrive.
-2. Isi customer purchase order dengan "PO menyusul".
-3. Manager/owner wajib approve sebelum barang dibeli atau dikirim.
-4. Saat PO customer resmi datang, admin update nomor PO customer di ERPNext dan arsip.
-
-
-- [x] Revisi lagi ini soalnya ga jadi pake erpnext #backburner 🔼  [completion:: 2026-09-16]
+## Hasil yang Diinginkan
+- Setiap pesanan memiliki nomor yang dapat digunakan untuk menelusuri pembelian dan pengiriman.
+- Data pesanan sesuai PO atau permintaan yang disetujui.
+- PO digital serta fisik tersimpan dan status "PO menyusul" diperbarui saat dokumen diterima.

@@ -5,17 +5,24 @@ tags:
   - SOP
   - Purchasing
 Divisi: I. Purchasing
+status:
 ---
-PO (Purchase Order) Customer adalah dokumen resmi menandakan ada pembelian ke perusahaan. Purchasing beli barang sesuai PO Customer dan koordinasi dengan operasional untuk siapkan barang. 
-## Langkah
 
-1. PO dicetak oleh admin. Diterima *Purchasing*. 
-2. PO Customer digantung menggunakan isolasi kertas.
-3. Untuk masing-masing barang pada PO customer, purchasing mengikuti langkah berikut:
-	1. pesan barang [[I.2. Delivery Order (DO) - Pesan Barang]].
-	2. Tandai barang [[I.7. Laporan progress status PO Customer]]
-4. Koordinasi dengan manajer & sales untuk menentukan jadwal pengiriman dan infokan PO mana saja yang ingin dikirimkan.
-5. Purchasing berikan PO Customer ke admin dan koordinasi sesuai rencana pengiriman.
+# I.1. Menerima Purchase Order (PO)
 
-Note:
-1. Jangan kirim barang tanpa PO customer kecuali sudah approved oleh manager/owner.
+## Deskripsi SOP
+Purchasing menerima Purchase Order (PO), yaitu pesanan resmi dari customer, untuk mengatur pembelian barang dan rencana pengirimannya.
+
+## Langkah Menjalankan SOP
+1. Admin mencetak PO customer dan menyerahkannya kepada purchasing setelah pemeriksaan sesuai [[III.10. Check PO Sesuai Penawaran Harga]].
+2. Purchasing membahas dengan manajer barang yang mendesak, perlu dipesan online, atau tidak perlu dibeli oleh purchasing.
+3. Gantung PO menggunakan isolasi kertas agar mudah dilihat selama pembelian berlangsung.
+4. Pesan setiap barang sesuai [[I.2. Delivery Order (DO) - Pesan Barang]]. Perbarui statusnya sesuai [[I.7. Laporan progress status PO Customer]].
+5. Koordinasikan barang yang siap dikirim dan jadwal pengiriman dengan manajer serta sales.
+6. Serahkan PO kepada admin untuk menyiapkan dokumen pengiriman sesuai jadwal. Jika barang belum lengkap, pastikan purchasing tetap memiliki pegangan untuk sisa pembelian.
+7. Jika PO belum tersedia, minta persetujuan manajer/owner dan pencatatan pesanan dengan keterangan "PO menyusul" sebelum membeli atau mengirim barang.
+
+## Hasil yang Diinginkan
+- PO tersimpan rapi dan dapat ditemukan dengan mudah.
+- Setiap barang memiliki status pembelian yang jelas.
+- Admin, purchasing, sales, dan manajer mengetahui rencana pengiriman.

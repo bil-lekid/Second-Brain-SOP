@@ -6,19 +6,25 @@ tags:
   - HR
 Divisi: V. Human Resource
 ---
-# Tujuan
-1. Atasan dapat review 1 on 1 dengan staff.
-2. Dapat masukan berupa:
-	1. Perkembangan yang dapat dilakukan
-	2. Hambatan yang dapat dihilangkan
-	3. SOP yang perlu diperbaiki
-	4. SOP yang perlu dihilangkan
-# Langkah
-1. Panggil untuk sesi review 1 on 1.
-2. Setiap hari Rabu, Kamis, Jumat.
-3. Format lisan:
-	1. Apa yang sudah kamu capai minggu ini?
-	2. Apa kendala atau hambatan yang muncul?
-	3. Apa yang bisa dibantu / dipercepat?
-	4. Ada saran atau kritik buat sistem atau rekan kerja?
-	5. Target apa minggu depan?
+
+# V.3. Sistem masukan-opini (feedback)
+
+## Deskripsi SOP
+Atasan melakukan sesi satu lawan satu dengan staf untuk mengevaluasi hasil kerja, mengatasi hambatan, dan menerima masukan bagi perbaikan sistem atau SOP.
+
+## Langkah Menjalankan SOP
+1. Jadwalkan sesi dengan masing-masing staf pada Rabu, Kamis, atau Jumat sesuai pembagian jadwal tim.
+2. Dalam sesi, tanyakan:
+   - Apa yang sudah dicapai minggu ini?
+   - Apa kendala atau hambatannya?
+   - Apa yang dapat dibantu atau dipercepat?
+   - Apakah ada saran/kritik untuk sistem, SOP, atau kerja sama tim?
+   - Apa target minggu depan?
+3. Catat hasil penting: pencapaian, hambatan, usulan perbaikan/penghapusan SOP, dan bantuan yang diperlukan.
+4. Sepakati tindakan, penanggung jawab, serta waktu penyelesaiannya. Jika perlu keputusan manajer, teruskan usulan untuk diputuskan.
+5. Pada sesi berikutnya, periksa tindak lanjut yang sudah disepakati.
+
+## Hasil yang Diinginkan
+- Staf memiliki kesempatan menyampaikan hambatan dan masukan.
+- Setiap tindakan yang disepakati memiliki penanggung jawab dan waktu penyelesaian.
+- Perbaikan sistem/SOP dapat ditelusuri dan dievaluasi.

@@ -5,104 +5,46 @@ tags:
   - SOP
   - Purchasing
 Divisi: I. Purchasing
+status: inbox
 ---
 
-# I.3. Menerima nota, tagihan, dan Surat Jalan.
+# I.3. Menerima nota, tagihan, dan Surat Jalan
 
-Department: Purchasing  
-Status: Draft  
-Last Updated: 2025-11-28
+## Deskripsi SOP
+Purchasing menerima dan memeriksa nota, tagihan, serta surat jalan supplier. Dokumen dipisahkan sesuai jenis pembayaran agar admin dapat mencatat pembelian, pajak, dan utang dengan benar.
 
-Untuk nota pembelian ada 3 macam arsip yang digunakan admin, masing-masing berfungsi beda:
-<table>
-<colgroup>
-<col width="236.33333333333334">
-<col width="236.33333333333334">
-<col width="236.33333333333334">
-</colgroup>
-<tr>
-<td><span underline="true">**Macam Arsip**</span></td>
-<td>Fungsi</td>
-<td>Tipe nota</td>
-</tr>
-<tr>
-<td>Arsip Dengan PO, surat jalan, invoice lengkap</td>
-<td>Untuk pencatatan penjualan dan pembelian</td>
-<td>nota pembayaran tunai/transfer non ppn, nota ppn copy, DO apabila belum ada nota</td>
-</tr>
-<tr>
-<td>Map PPN</td>
-<td>Untuk pencatatan pembelian ppn dan pengecekan pembukaan faktur pajak. Memudahkan admin untuk melampirkan faktur pajak dengan nota ppn dan cek nota yang belum buka faktur pajak.</td>
-<td>nota ppn asli, harus dilengkapi dengan faktur pajak. Faktur pajak dapat langsung dicetak supplier atau diemail atau dapat dicetak dari coretax</td>
-</tr>
-<tr>
-<td>Kotak Tagihan</td>
-<td>Untuk pencatatan tagihan/tempo pembelian. Sebagai bukti penerimaan nota tagihan</td>
-<td>Untuk bukti bahwa tagihan sudah diterima, dan bukti bahwa ada tagihan saat ditagih.</td>
-</tr>
-</table>
+## Langkah Menjalankan SOP
+### A. Memeriksa dokumen
+1. Terima dokumen dari kurir atau penagih.
+2. Cocokkan nama barang, jumlah, harga satuan, dan total dengan DO serta barang yang diterima. Laporkan selisih kepada purchasing/manajer sebelum menyelesaikan pembayaran.
+3. Tulis nama customer, nomor PO, nomor SO jika tersedia, dan nomor item PO agar dokumen dapat ditelusuri.
+4. Tentukan jenis dokumen: nota PPN, pembelian tunai, pembelian transfer, atau tagihan tempo. Nota PPN juga mengikuti alur pembayaran yang sesuai.
 
-### 1. Nota diberikan oleh kurir/penagih
-Terima dokumen dari kurir/penagih.
+### B. Nota PPN
+1. Masukkan nota PPN asli ke map PPN untuk dicocokkan dengan faktur pajak.
+2. Berikan salinan untuk arsip PO atau kotak tagihan sesuai jenis pembayaran. Jika tidak ada salinan, minta admin memindai dan mencetaknya.
+3. Admin melengkapi faktur pajak dari supplier, email, atau Coretax dan mencatat jika faktur belum diterima.
 
-## 2. Cek isi nota
-- Cek kuantitas barang.
-- Cek nama barang.
-- Cek jumlah dan total harga sesuai.
+### C. Pembelian tunai/COD
+1. Bayar kurir/penagih setelah pemeriksaan sesuai.
+2. Simpan nota di laci laporan uang kas dan masukkan ke [[I.4. Laporan Uang Kas]]. Setelah dicatat, serahkan untuk arsip admin.
 
-## 3. Nota PPN
-- Nota PPN **asli** dimasukkan ke **map PPN**.
-- Berikan **copy** ke arsip beserta PO atau letakkan di **kotak tagihan**.
-- Jika tidak ada copy, minta admin untuk **scan & print copy**.
+### D. Pembelian transfer
+1. Foto nota dan kirim ke manajer melalui WhatsApp.
+2. Manajer meneruskan kepada akunting untuk pembayaran.
+3. Setelah akunting melakukan transfer, manajer mengirim bukti transfer kepada penerima.
+4. Tulis "KAS N.H." pada nota sesuai penandaan internal. Foto kembali dan kirim kepada manajer serta supplier.
+5. Serahkan nota dan bukti transfer kepada admin untuk diarsipkan.
 
-## 4. Nota Pembelian Kas (COD)
-1. Bayar ke kurir/penagih.
-2. Tulis **nama customer, nomor PO, dan nomor barang** pada nota.
-3. Simpan nota di laci untuk laporan uang kas.
+### E. Tagihan tempo/utang
+1. Periksa tanda terima dari supplier sebelum menandatangani penerimaan dokumen.
+2. Supplier yang pada catatan awal menyediakan tanda terima: Kurnia Duta, Sinar Gemilang, Gunung Semesta, Logam Mas, Bintang Jaya Hydra (Maestro Seal), Fortindo, Elmecon, Sarana Utama (Amplas 3M), Shihlindo, Yan Electric, dan Industrial Multifan.
+3. Jika supplier tidak menyediakan tanda terima, buat sendiri. Catatan awal mencakup Cahaya Packing (CL Packing), Karya Raya Mandiri, Mandiri Tape, Proteam Jaya Sempurna, Nippon Star (Amplas Fujisun), Optimal, Gemilang Electric, dan Sukses Makmur Sukhitatta (SMS Kabel).
+4. Pada tanda terima, isi nama toko; tanggal, nomor faktur, dan jumlah per nota; serta total keseluruhan.
+5. Minta admin memindai invoice dan mencetak salinannya. Serahkan invoice asli kepada admin; nota PPN asli tetap mengikuti alur map PPN.
+6. Satukan salinan tanda terima dan invoice dengan staples, lalu masukkan ke kotak tagihan biru untuk [[III.7. Pencatatan Tagihan.]]. Tanda terima dokumen tidak berarti tagihan sudah dibayar.
 
-## 5. Nota Pembelian Transfer
-1. Foto nota, kirim ke **Manajer** via WA.
-2. Manajer meneruskan ke **Akunting**.
-3. Akunting melakukan **transfer pembayaran**.
-4. Manajer mengirimkan **bukti transfer** ke penerima.
-5. Tulis **"KAS N.H."** dan foto kembali, kirim ke manajer + supplier.
-6. Berikan nota pembelian ke **admin** untuk arsip.
-
-## 6. Nota Tagihan (Tempo / Hutang)
-### 6.1. Tanda Tangan Tanda Terima dari Toko
-Toko yang memberikan tanda terima (langsung ditandatangani):
-- Kurnia Duta
-- Sinar Gemilang
-- Gunung Semesta
-- Logam Mas
-- Bintang Jaya Hydra (Maestro Seal)
-- Fortindo
-- Elmecon
-- Sarana Utama (Amplas 3M)
-- Shihlindo
-- Yan Electric
-- Industrial Multifan
-
-### 6.2. Toko yang Tidak Memberikan Tanda Terima
-Buat tanda terima sendiri untuk toko berikut:
-- Cahaya Packing (CL Packing)
-- Karya Raya Mandiri
-- Mandiri Tape
-- Proteam Jaya Sempurna
-- Nippon Star (Amplas Fujisun)
-- Optimal
-- Gemilang Electric
-- Sukses Makmur Sukhitatta (SMS Kabel)
-
-**Cara membuat tanda terima:**
-1. Tuliskan nama toko.
-2. Isi tabel berisi **tanggal, nomor faktur, dan jumlah** (satu baris per nota).
-3. Tulis **total keseluruhan** pada bagian bawah.
-
-### 6.3. Proses Arsip
-1. Minta admin **scan invoice** dan cetak **copy invoice**.
-2. Serahkan **invoice asli** ke admin.
-3. Ambil **copy tanda terima + copy invoice**, lalu *staples* menjadi satu.
-4. Masukkan ke **kotak biru**.
-
-
+## Hasil yang Diinginkan
+- Dokumen sesuai dengan barang dan pembelian yang dilakukan.
+- Nota PPN, bukti kas/transfer, dan tagihan tempo masuk ke tempat arsip yang benar.
+- Setiap tagihan memiliki bukti penerimaan dan status pembayaran yang dapat diperiksa.

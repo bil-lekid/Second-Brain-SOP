@@ -6,16 +6,21 @@ tags:
   - Purchasing
 Divisi: I. Purchasing
 ---
-Catatan keamanan: password di SOP asli aku redact. Simpan kredensial di password manager (Bitwarden/1Password/dll) lalu refer dari sini.
 
-1. Pada HP Android buka setting
-2. Buka Accounts and backup
-3. Buka Manage accounts
-4. Tekan Add Account
-5. Tekan Google
-6. Masukkan Email, purchasingppp1@gmail.com
-7. Masukkan Password, **[REDACTED]**
-8. Lanjutkan proses login. (Apabila menggunakan QR kirim QR ke manajer)
-9. Buka contact dan sync contact.
+# I.6. Log in ke akun gmail purchasing
 
+## Deskripsi SOP
+Staf purchasing menambahkan akun Google purchasing ke HP Android agar dapat mengakses Gmail dan menyinkronkan kontak supplier.
 
+## Langkah Menjalankan SOP
+1. Siapkan email purchasingppp1@gmail.com dan ambil password dari password manager perusahaan atau pengelola akun.
+2. Buka **Settings → Accounts and backup → Manage accounts → Add account → Google**. Nama menu dapat berbeda pada setiap HP.
+3. Masukkan email, lalu password.
+4. Selesaikan verifikasi login bersama manajer/pengelola akun jika diperlukan. Ikuti petunjuk verifikasi resmi pada layar.
+5. Buka Gmail dan pastikan akun purchasing sudah muncul.
+6. Buka pengaturan sinkronisasi akun dan aktifkan **Contacts/Kontak**. Pastikan kontak supplier tampil pada aplikasi Kontak.
+7. Jika gagal login atau sinkronisasi, catat pesan kesalahan dan hubungi pengelola akun. Simpan password di password manager, bukan di SOP.
+
+## Hasil yang Diinginkan
+- Gmail purchasing dapat diakses oleh staf yang berwenang.
+- Kontak supplier tersinkron ke akun purchasing.
